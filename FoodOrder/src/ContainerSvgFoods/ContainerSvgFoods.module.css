@@ -1,0 +1,7 @@
+.BoxSvg{
+
+    background-color: rgb(189, 53, 12);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}

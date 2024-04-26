@@ -1,0 +1,16 @@
+.BoxOrders{
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+.Box{
+    
+    animation-name: anime;
+    animation-duration: 2s;
+   
+    
+}
+@keyframes anime {
+    from {transform: translate(0,0px);opacity: 0;}
+    to {transform: translate(0,-20%);opacity: 1;}
+  }

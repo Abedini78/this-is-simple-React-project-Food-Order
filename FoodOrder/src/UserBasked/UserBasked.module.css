@@ -1,0 +1,40 @@
+.Box{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index:1 ;
+    background-color: rgba(22, 21, 21, 0.418);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.BoxItem{
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+  
+
+}
+.BoxItem>h5{
+   width: 30px;
+   height: 30px;
+   background-color: rgb(219, 78, 35);
+   color: white;
+   border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   cursor: pointer;
+}
+.Active{
+    animation-name: Active;
+    animation-duration: 0.3s;
+}
+
+@keyframes Active {
+    from {transform: scale(1.03);}
+    to { transform: scale(1);}
+  }

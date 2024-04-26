@@ -1,0 +1,10 @@
+.Box{
+    padding: 10px;
+    position: relative;
+    top: -50%;
+    border-radius: 10px;
+    background-color: rgb(32, 30, 30);;
+}
+.Box>h5{
+    line-height: 30px;
+}
